@@ -1,3 +1,4 @@
+package by.academydv.java.task2;
 
 public class HomeTask2 {
 
