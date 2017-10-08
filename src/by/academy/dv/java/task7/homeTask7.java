@@ -3,7 +3,7 @@ package by.academy.dv.java.task7;
 public class homeTask7 {
 
 	public static void main(String[] args) {
-		int a = 5;
+		int a = 6;
 		int b = 6;
 		int c = 4;
 		int d = 2;
@@ -15,7 +15,7 @@ public class homeTask7 {
 				System.out.println("Дома помещаются на участке.");
 
 			} else
-				System.out.println("Участок слишком малю.");
+				System.out.println("Участок слишком мал.");
 
 		}
 

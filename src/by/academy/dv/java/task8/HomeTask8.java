@@ -6,7 +6,7 @@ public class HomeTask8 {
 
 		int f = 1;
 		int i = 1;
-		while (i <= 3) {
+		while (i <= 7) {
 			f *= i;
 			i++;
 
