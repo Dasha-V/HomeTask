@@ -1,7 +1,7 @@
 package by.academy.dv.java.task17;
 
 public class Task17 {
-
+//тут можно ставить незачёт. Задание я подсмотрела
 	public static void main(String[] args) {
 	
 	        int arr[][]=new int[5][5];
