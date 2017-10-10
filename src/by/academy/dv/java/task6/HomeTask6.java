@@ -9,18 +9,18 @@ public class HomeTask6 {
 		int nextDay = ++day;
 		int z = nextDay;
 		if (z < 9 && m < 9) {
-			System.out.println("0" + z + " ÷èñëî, " + "0" + m + " ìåñÿö, "
-					+ year + " ãîä.");
+			System.out.println("0" + z + " Ñ‡Ð¸ÑÐ»Ð¾, " + "0" + m + " Ð¼ÐµÑÑÑ†, "
+					+ year + " Ð³Ð¾Ð´.");
 		} else if (z < 9 && m > 9) {
-			System.out.println("0" + z + " ÷èñëî, " + m + " ìåñÿö, " + year
-					+ " ãîä.");
+			System.out.println("0" + z + " Ñ‡Ð¸ÑÐ»Ð¾, " + m + " Ð¼ÐµÑÑÑ†, " + year
+					+ " Ð³Ð¾Ð´.");
 		} else if (z > 9 && m < 9) {
-			System.out.println(z + " ÷èñëî, " + "0" + m + " ìåñÿö, " + year
-					+ " ãîä.");
-		} else
+			System.out.println(z + " Ñ‡Ð¸ÑÐ»Ð¾, " + "0" + m + " Ð¼ÐµÑÑÑ†, " + year
+					+ " Ð³Ð¾Ð´.");
+		} else {
 			System.out
-					.println(z + " ÷èñëî, " + m + " ìåñÿö, " + year + " ãîä.");
+					.println(z + " Ñ‡Ð¸ÑÐ»Ð¾, " + m + " Ð¼ÐµÑÑÑ†, " + year + " Ð³Ð¾Ð´.");
 
+		}
 	}
-
 }

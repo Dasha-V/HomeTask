@@ -1,6 +1,6 @@
 package by.academy.dv.java.task7;
 
-public class homeTask7 {
+public class HomeTask7 {
 
 	public static void main(String[] args) {
 		int a = 6;
@@ -12,11 +12,11 @@ public class homeTask7 {
 
 		if (e >= a && e >= c && f >= (b + d)) {
 			if (e >= (a + c) && f >= b && f >= d) {
-				System.out.println("Дома помещаются на участке.");
+				System.out.println("Р”РѕРјР° РїРѕРјРµС‰Р°СЋС‚СЃСЏ РЅР° СѓС‡Р°СЃС‚РєРµ.");
 
-			} else
-				System.out.println("Участок слишком мал.");
-
+			} else {
+				System.out.println("РЈС‡Р°СЃС‚РѕРє СЃР»РёС€РєРѕРј РјР°Р».");
+			}
 		}
 
 	}

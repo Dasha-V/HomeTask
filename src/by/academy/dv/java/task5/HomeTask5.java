@@ -1,30 +1,28 @@
 package by.academy.dv.java.task5;
+
 public class HomeTask5 {
 
 	public static void main(String[] args) {
 
-		int money = 100;
+		int money = 101;
 		int m = money % 10;
 
 		switch (m) {
 		case 1:
-			System.out.println(money + " πσαλό");
+			System.out.println(money + " Ρ€ΡƒΠ±Π»Ρ");
 			break;
 		case 2:
-			System.out.println(money + " πσαλÿ");
+			System.out.println(money + " Ρ€ΡƒΠ±Π»Ρ");
 			break;
 		case 3:
-			System.out.println(money + " πσαλÿ");
+			System.out.println(money + " Ρ€ΡƒΠ±Π»Ρ");
 			break;
 		case 4:
-			System.out.println(money + " πσαλÿ");
-			break;
-		case 5:
-			System.out.println(money + " πσαλει");
+			System.out.println(money + " Ρ€ΡƒΠ±Π»Ρ");
 			break;
 
 		default:
-			System.out.println(money + " πσαλει");
+			System.out.println(money + " Ρ€ΡƒΠ±Π»ΠµΠΉ");
 			break;
 
 		}

@@ -5,13 +5,17 @@ public class HomeTask4 {
 	public static void main(String[] args) {
 		int a = 4;
 		int b = 2;
-		int srect = a*b;
-		double z=5;
-		z *=z;
+		int srect = a * b;
+		double z = 5;
+		z *= z;
 		double p = 3.1415926;
-		double r = p*z; 
-		if (r>srect) {System.out.println(" Û„ Á‡Í˚‚‡ÂÚ ÔˇÏÓÛ„ÓÎ¸ÌËÍ");}
-		else System.out.println (" Û„ ÌÂ ÒÏÓ„ Á‡Í˚Ú¸ ÔˇÏÓÛ„ÓÎ¸ÌËÍ");
+		double sround = p * z;
+		if (sround > srect) {
+			System.out.println("–ö—Ä—É–≥ –∑–∞–∫—Ä—ã–≤–∞–µ—Ç –ø—Ä—è–º–æ—É–≥–æ–ª—å–Ω–∏–∫.");
+		} else {
+			System.out.println("–ö—Ä—É–≥ –Ω–µ —Å–º–æ–≥ –∑–∞–∫—Ä—ã—Ç—å –ø—Ä—è–º–æ—É–≥–æ–ª—å–Ω–∏–∫");
+
+		}
 
 	}
 

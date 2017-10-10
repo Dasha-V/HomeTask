@@ -1,22 +1,24 @@
 package by.academy.dv.java.task5;
+
 public class HomeTask5_1 {
 
 	public static void main(String[] args) {
 
-		int m = 21;
+		int m = 25;
 		int a = m % 10;
 
 		if (a == 1) {
-			System.out.println(m + " πσαλό");
+			System.out.println(m + " Ρ€ΡƒΠ±Π»Ρ");
 		} else if (a == 2) {
-			System.out.println(m + " πσαλÿ");
+			System.out.println(m + " Ρ€ΡƒΠ±Π»Ρ");
 		} else if (a == 3) {
-			System.out.println(m + " πσαλÿ");
+			System.out.println(m + " Ρ€ΡƒΠ±Π»Ρ");
 		} else if (a == 4) {
-			System.out.println(m + " πσαλÿ");
+			System.out.println(m + " Ρ€ΡƒΠ±Π»Ρ");
 		}
 
-		else
-			System.out.println(m + " πσαλει");
+		else {
+			System.out.println(m + " Ρ€ΡƒΠ±Π»ΠµΠΉ");
+		}
 	}
 }
