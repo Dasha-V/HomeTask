@@ -16,8 +16,8 @@ public class HomeTask2 {
 		h = (m-min)/60;
 		day = h/24;
 		week = day/7;
-	System.out.println(week+ " неделя " + day + " дней "+  
-		h + " часов " + min + " минут " + sec + " секунд");
+	System.out.println(week+ " РЅРµРґРµР»СЏ " + day + " пїЅпїЅпїЅпїЅ "+  
+		h + " пїЅпїЅпїЅпїЅпїЅ " + min + " пїЅпїЅпїЅпїЅпїЅ " + sec + " пїЅпїЅпїЅпїЅпїЅпїЅ");
 	}
 
 }
