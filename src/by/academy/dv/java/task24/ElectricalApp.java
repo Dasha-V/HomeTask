@@ -29,8 +29,8 @@ public class ElectricalApp extends Appliances {
 	}
 
 	public void printOllCha_csOfElectr() {
-		String str = String.format("Мощность = %s, Энергосбережение = %s",
-				power, energySaving);
+		String str = String.format("power = %s, energySaving= %s", power,
+				energySaving);
 		System.out.println(str);
 
 	}

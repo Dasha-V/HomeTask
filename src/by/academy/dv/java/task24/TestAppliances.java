@@ -4,18 +4,18 @@ public class TestAppliances {
 
 	public static void main(String[] args) {
 
-		Appliances cofemolca = new Appliances(20, 15, 1, 15, "модель", "Р1236",
-				"красный", "LG");
+		Appliances cofemolca = new Appliances(20, 15, 1, 15, "Рњ", "1236",
+				"Р±РµР»С‹Р№", "LG");
 		cofemolca.printOllCha_cs();
 		ElectricalApp vacuumCleaner = new ElectricalApp(50, 50, 5, 100, "St7",
-				"L12364", "чёрный", "Philips", 1000, 300);
+				"L12364", "Р±РµР»С‹Р№", "Philips", 1000, 300);
 		vacuumCleaner.printOllCha_cs();
 		vacuumCleaner.printOllCha_csOfElectr();
-		Freege freege = new Freege(50, 50, 5, 100, "St7", "L12364", "чёрный",
+		Freege freege = new Freege(50, 50, 5, 100, "St7", "L12364", "пїЅпїЅпїЅпїЅпїЅпїЅ",
 				"Philips", 1000, 300, 50, 100);
 		freege.printOllCha_csOffreege();
 		WashMach washMach = new WashMach(50, 50, 5, 100, "St7", "L12364",
-				"чёрный", "Philips", 1000, 300, "боковая", 100);
+				"пїЅпїЅпїЅпїЅпїЅпїЅ", "Philips", 1000, 300, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", 100);
 		System.out.println(washMach.plugged());
 	}
 

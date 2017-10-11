@@ -15,7 +15,7 @@ public class WashMach extends ElectricalApp {
 	}
 
 	public void printOllCha_csOfWasMach() {
-		String str = String.format("тип загрузки= %s, скорость отжима = %s",
+		String str = String.format("С‚РёРї Р·Р°РіСЂСѓР·РєРё= %s, СЃРєРѕСЂРѕСЃС‚СЊ РѕС‚Р¶РёРјР° = %s",
 				dowTipe, spinSpeed);
 		System.out.println(str);
 

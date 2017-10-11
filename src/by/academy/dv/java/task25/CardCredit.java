@@ -9,14 +9,15 @@ public class CardCredit extends Card {
 		this.sumOfcredit = sumOfcredit;
 		this.setCreditPeriod(creditPeriod);
 		double z = sumOfcredit / creditPeriod;
-		System.out.println("Сумма основного долга в месяц " + z);
+		System.out.println("РЎСѓРјРјР° РѕСЃРЅРѕРІРЅРѕРіРѕ РґРѕР»РіР° РІ РјРµСЃСЏС† " + z);
 	}
 
-	public void percOfFirstMon(double sumOfcredit, double creditRateInYear, double mons, double year) {
+	public void percOfFirstMon(double sumOfcredit, double creditRateInYear,
+			double mons, double year) {
 		this.sumOfcredit = sumOfcredit;
 		this.creditRateInYear = creditRateInYear;
-		double h = (sumOfcredit * (creditRateInYear/100)) * (mons/ year);
-		System.out.println("% начисляемый в первый месяц " + h);
+		double h = (sumOfcredit * (creditRateInYear / 100)) * (mons / year);
+		System.out.println("% РЅР°С‡РёСЃР»СЏРµРјС‹Р№ РІ РїРµСЂРІС‹Р№ РјРµСЃСЏС† " + h);
 	}
 
 	public CardCredit(double creditRateInYear, double creditPeriod,
@@ -50,5 +51,5 @@ public class CardCredit extends Card {
 	public void setSumOfcredit(double sumOfcredit) {
 		this.sumOfcredit = sumOfcredit;
 	}
-	
+
 }

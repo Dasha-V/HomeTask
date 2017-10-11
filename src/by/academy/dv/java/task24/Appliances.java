@@ -26,7 +26,7 @@ public class Appliances {
 
 	public void printOllCha_cs() {
 		String str = String
-				.format("Высота см:=%s,Ширина см:=%s,Вес кг:= %s,Стоимость USD:=%s,Модель: = %s, серийный номер:=%s,цвет:=%s,Компания производитель:=%s",
+				.format("РІС‹СЃРѕС‚Р° СЃРј:=%s,С€РёСЂРёРЅР° СЃРј:=%s,РІРµСЃ РєРі:= %s, СЃС‚РѕРёРјРѕСЃС‚СЊ USD:=%s,РјРѕРґРµР»СЊ: = %s, СЃРµСЂРёР№РЅС‹Р№ РЅРѕРјРµСЂ:=%s,С†РІРµС‚:=%s,РєРѕРјРїР°РЅРёСЏ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ:=%s",
 						height, width, weight, coast, model, serialNum, color,
 						prodCom);
 		System.out.println(str);

@@ -1,9 +1,10 @@
 package by.academy.dv.java.task24;
 
-public class Freege  extends ElectricalApp{
-	
+public class Freege extends ElectricalApp {
+
 	private int FreezVol;
 	private int FreegeVol;
+
 	public Freege(int height, int width, int weight, int coast, String model,
 			String serialNum, String color, String prodCom, int power,
 			int energySaving, int freezVol, int freegeVol) {
@@ -12,18 +13,13 @@ public class Freege  extends ElectricalApp{
 		FreezVol = freezVol;
 		FreegeVol = freegeVol;
 	}
-	
+
 	public void printOllCha_csOffreege() {
 		String str = String.format(
-				"объем морозильной камеры = %s, объём холодильной камеры = %s",
+				"РѕР±СЉС‘Рј РјРѕСЂРѕРёР»СЊРЅРѕР№ РєР°РјРµСЂС‹ = %s, РѕР±СЉС‘Рј С…РѕР»РѕРґРёР»СЊРЅРѕР№ РєР°РјРµСЂС‹ = %s",
 				FreezVol, FreegeVol);
-		System.out.println(str);	
+		System.out.println(str);
 
 	}
-
-	
-	
-	
-	
 
 }

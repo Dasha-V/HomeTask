@@ -1,9 +1,9 @@
- package by.academy.dv.java.task18;
+package by.academy.dv.java.task18;
 
 public class HomeTask18 {
 
 	public static void main(String[] args) {
-		String str = "Строка!! с разными, знакми , препинания;;";
+		String str = "СЃС‚СЂРѕРєР°!! СЃ СЂР°Р·РЅС‹РјРё, Р·РЅР°РєР°РјРё , РїСЂРµРїРёРЅР°РЅРёСЏ;;";
 		int n1 = 0;
 		int n2 = 0;
 		int n3 = 0;
@@ -22,8 +22,8 @@ public class HomeTask18 {
 			sum = n1 + n2 + n3;
 		}
 
-		System.out.println("Найдено " + " ,= "+ n1 + " != " + n2 + " ; = " + n3
-				+ ". Итого знаков препинания " + sum);
+		System.out.println("РЎРѕРґРµСЂР¶РёС‚: " + " ,= " + n1 + " != " + n2 + " ; = "
+				+ n3 + ". РС‚РѕРіРѕ: " + sum);
 
 	}
 }
