@@ -13,3 +13,5 @@
 /Task6.class
 .classpath
 .project
+/bin/
+*.prefs

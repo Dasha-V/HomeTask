@@ -3,14 +3,23 @@ package by.academy.dv.java.task11;
 public class HomeTask11 {
 
 	public static void main(String[] args) {
-		double n = -10;
+		int n = 17;
+		boolean f = true;
 
-		if (n % 1 == 0 &&n>=1) {
-			System.out.println("�����");
+		for (int i = 2; i < n; i++) {
+
+			if (n % i == 0) {
+				System.out.println(n + " не является простым ");
+				f = false;
+				break;
+
+			}
+
+		}
+		if (f) {
+			System.out.println(n + " число простое");
 		}
 
-		else
-			System.out.println("�� �����");
 	}
 
 }
