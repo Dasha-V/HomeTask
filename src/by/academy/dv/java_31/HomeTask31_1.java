@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
-public class HomeTask31 {
+public class HomeTask31_1 {
 
 	public static void main(String[] args) throws IOException {
 
@@ -43,17 +43,15 @@ public class HomeTask31 {
 		scanner.close();
 		for (Integer integer : integers) {
 			sum += integer;
-			
-			
 
 		}
-				System.out.println(sum);
-				Set<Integer> list2 = new HashSet<Integer>();
-				list2.addAll(integers);
-				integers.clear();
-				integers.addAll(list2);
-				System.out.println(integers);
-				
+		System.out.println(sum);
+		Set<Integer> list2 = new HashSet<Integer>();
+		list2.addAll(integers);
+		integers.clear();
+		integers.addAll(list2);
+		System.out.println(integers);
+
 	}
 
 }
