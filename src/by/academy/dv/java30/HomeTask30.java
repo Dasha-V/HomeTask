@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
+
 public class HomeTask30 {
 
 	public static void main(String[] args) throws IOException {
@@ -20,15 +22,16 @@ public class HomeTask30 {
 		FileWriter filewriter = new FileWriter(file);
 		filewriter.write("ткань; сплетение, связь, сочетание\n");
 		filewriter.write("ткань; сплетение, связь, сочетание\n");
-
+	
 		filewriter.close();
 
+	
 		List<String> allLines = Files.readAllLines(
 				Paths.get(file.getAbsolutePath()), Charset.defaultCharset());
 
 		int wordsCount = 0;
 		int delimeter = 0;
-		for (String line : allLines) {
+		for (String line : allLines) { 
 			System.out.println(line);
 			String[] splitResalt = line.split("(,| |;)+");
 			wordsCount += splitResalt.length;
