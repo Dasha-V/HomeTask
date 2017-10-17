@@ -29,6 +29,8 @@ public class Task28 {
 
 		}
 		
+		System.out.println(mmaxMark);
+		
 	}
 
 }

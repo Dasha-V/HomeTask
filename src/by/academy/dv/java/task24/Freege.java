@@ -14,7 +14,7 @@ public class Freege extends ElectricalApp {
 		FreegeVol = freegeVol;
 	}
 
-	public void printOllCha_csOffreege() {
+	public void printOllChacsOffreege() {
 		String str = String.format(
 				"объём мороильной камеры = %s, объём холодильной камеры = %s",
 				FreezVol, FreegeVol);

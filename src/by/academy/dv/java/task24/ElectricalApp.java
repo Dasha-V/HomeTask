@@ -1,6 +1,6 @@
 package by.academy.dv.java.task24;
 
-public class ElectricalApp extends Appliances {
+public class ElectricalApp extends Applianc {
 	private int power;
 	private int energySaving;
 

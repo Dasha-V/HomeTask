@@ -9,7 +9,7 @@ public class HomeTask11 {
 		for (int i = 2; i < n; i++) {
 
 			if (n % i == 0) {
-				System.out.println(n + " не является простым ");
+				System.out.println(n + " не является простым");
 				f = false;
 				break;
 

@@ -17,13 +17,13 @@ public class HomeTask27 {
 		for (int i = 0; i < 10; i++) {
 			Integer randNum = random.nextInt(10);
 			list.add(randNum);
-			System.out.println(list.get(i));
+			System.out.print(list.get(i));
 		}
-		Set<Integer> list2 = new HashSet<>();
-		list2.addAll(list);
+		Set<Integer> st = new HashSet<Integer>();
+		st.addAll(list);
 		list.clear();
-		list.addAll(list2);
-		System.out.println(list);
+		list.addAll(st);
+		System.out.println(" "+list);
 
 	}
 }

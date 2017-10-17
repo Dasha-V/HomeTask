@@ -4,7 +4,7 @@ public class TestAppliances {
 
 	public static void main(String[] args) {
 
-		Appliances cofemolca = new Appliances(20, 15, 1, 15, "М", "1236",
+		Applianc cofemolca = new Applianc(20, 15, 1, 15, "М", "1236",
 				"белый", "LG");
 		cofemolca.printOllCha_cs();
 		ElectricalApp vacuumCleaner = new ElectricalApp(50, 50, 5, 100, "St7",
@@ -13,7 +13,7 @@ public class TestAppliances {
 		vacuumCleaner.printOllCha_csOfElectr();
 		Freege freege = new Freege(50, 50, 5, 100, "St7", "L12364", "������",
 				"Philips", 1000, 300, 50, 100);
-		freege.printOllCha_csOffreege();
+		freege.printOllChacsOffreege();
 		WashMach washMach = new WashMach(50, 50, 5, 100, "St7", "L12364",
 				"������", "Philips", 1000, 300, "�������", 100);
 		System.out.println(washMach.plugged());

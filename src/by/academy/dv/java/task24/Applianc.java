@@ -1,6 +1,6 @@
 package by.academy.dv.java.task24;
 
-public class Appliances {
+public class Applianc {
 
 	private int height;
 	private int width;
@@ -11,7 +11,7 @@ public class Appliances {
 	private String color;
 	private String prodCom;
 
-	public Appliances(int height, int width, int weight, int coast,
+	public Applianc(int height, int width, int weight, int coast,
 			String model, String serialNum, String color, String prodCom) {
 		super();
 		this.height = height;
@@ -33,7 +33,7 @@ public class Appliances {
 
 	}
 
-	public Appliances() {
+	public Applianc() {
 		super();
 	}
 

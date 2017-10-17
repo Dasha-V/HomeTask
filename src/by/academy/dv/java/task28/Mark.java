@@ -20,6 +20,10 @@ public class Mark {
 	public void setMark(int mark) {
 		this.mark = mark;
 	}
+	@Override
+	public String toString() {
+		return "Mark [name=" + name + ", mark=" + mark + "]";
+	}
 	
 	
 
