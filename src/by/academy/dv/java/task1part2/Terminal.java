@@ -1,4 +1,4 @@
-package by.academy.dv.java.task1P2;
+package by.academy.dv.java.task1part2;
 
 public class Terminal {
 

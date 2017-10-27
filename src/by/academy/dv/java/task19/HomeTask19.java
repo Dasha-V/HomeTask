@@ -1,6 +1,6 @@
 package by.academy.dv.java.task19;
 
-public class Stroki19 {
+public class HomeTask19 {
 
 	public static void main(String[] args) {
 		String str = "  Всего слов в строке   ";

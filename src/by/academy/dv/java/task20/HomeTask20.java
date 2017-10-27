@@ -1,6 +1,6 @@
 package by.academy.dv.java.task20;
 
-public class Task20 {
+public class HomeTask20 {
 
 	public static void main(String[] args) {
 		StringBuffer newString = new StringBuffer();

@@ -1,6 +1,6 @@
 package by.academy.dv.java.task16;
 
-public class Task16 {
+public class HomeTask16 {
 
 	public static void main(String[] args) {
 		int array[] = new int[10];
