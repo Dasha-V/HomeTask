@@ -1,4 +1,4 @@
-package by.academy.dv.java.task24and1Builder;
+package by.academy.dv.java.task24and1builder;
 
 abstract class ElecAppBuilder {
 	MyElectricalApp appliance;
