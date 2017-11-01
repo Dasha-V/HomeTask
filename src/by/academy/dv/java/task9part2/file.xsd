@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="fixedUnitType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="cm"></xs:enumeration>
+			<xs:enumeration value="mm"></xs:enumeration>
+			<xs:enumeration value="px"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="pointType">
+		<xs:sequence>
+			<xs:element name="unit" type="fixedUnitType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="pointsListType">
+		<xs:sequence>
+			<xs:element name="point" maxOccurs="unbounded" type="pointType" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="pointslist" type="pointsListType" />
+
+</xs:schema>
