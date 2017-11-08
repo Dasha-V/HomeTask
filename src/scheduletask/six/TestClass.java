@@ -6,19 +6,22 @@ public class TestClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Введите время отправления от первой станции: ");
-		double startTime = sc.nextDouble();
+		System.out.println("Введите час отправления: ");
+		int startTimeinHours = sc.nextInt();
+		System.out.println("Введите минута отправления: ");
+		int startTimeinMinutes = sc.nextInt();
 		System.out.println("Введите количество станций: ");
 		int numOfStation = sc.nextInt();
-		double array[] = new double[numOfStation - 1];
+		int array[] = new int[numOfStation - 1];
 		for (int i = 0; i < numOfStation - 1; i++) {
 			System.out.println("Введите время до следущей станции: ");
-			array[i] = sc.nextDouble();
+			array[i] = sc.nextInt();
 		}
 
-		TransportSchedule transportSchedule = new TransportSchedule(startTime,
-				numOfStation, array);
-		transportSchedule.toDoSchedule();
+		TransportSchedule2 transportSchedule2 = new TransportSchedule2(
+				startTimeinHours, startTimeinMinutes, numOfStation, array);
+		transportSchedule2.toDoSchedule();
+
 		sc.close();
 
 	}
