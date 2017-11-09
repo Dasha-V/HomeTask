@@ -18,9 +18,10 @@ public class TestClass {
 			array[i] = sc.nextInt();
 		}
 
-		TransportSchedule2 transportSchedule2 = new TransportSchedule2(
-				startTimeinHours, startTimeinMinutes, numOfStation, array);
-		transportSchedule2.toDoSchedule();
+		TransportSchedule transportSchedule = new TransportSchedule(
+				new ConverterMillis(), new TimeClass());
+		transportSchedule.toDoSchedule(startTimeinHours, startTimeinMinutes,
+				numOfStation, array);
 
 		sc.close();
 
