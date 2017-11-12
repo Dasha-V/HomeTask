@@ -1,27 +1,39 @@
 package scheduletask.two;
 
+import java.util.Scanner;
+
 public class ArrayTask {
 
 	public static void main(String[] args) {
-		int arr1[] = { 1, 2, 4, 7 };
-		int arr2[] = { 2, 5, 7, 8 };
-		int arr3[] = { 1, 3, 5, 9 };
-		for (int i = 0; i < arr1.length; i++) {
-			int a = arr1[i];
-			for (int j = 0; j < arr1.length; j++) {
-				int b = arr2[j];
-				int sum = a + b;
-				for (int z = 0; z < arr2.length; z++) {
-					int c = arr3[z];
-					if (c == sum) {
-						System.out.println(a + "+" + b + " = " + c);
-					}
 
-				}
-
-			}
-
+		Scanner sc = new Scanner(System.in);
+		int size = 4;
+		int array[] = new int[size];
+		System.out.println("заполняем массив№1: ");
+		for (int i = 0; i < array.length; i++) {
+			System.out.println("Введите число: ");
+			array[i] = sc.nextInt();
 		}
+		System.out.println("заполняем массив№2: ");
+		int array2[] = new int[size];
+		for (int i = 0; i < array.length; i++) {
+			System.out.println("Введите число: ");
+			array2[i] = sc.nextInt();
+		}
+		System.out.println("заполняем массив№3: ");
+		int array3[] = new int[size];
+		for (int i = 0; i < array.length; i++) {
+			System.out.println("Введите число: ");
+			array3[i] = sc.nextInt();
+		}
+		SelSort selSort = new SelSort();
+		selSort.selectionSort(array);
+		selSort.selectionSort(array2);
+		selSort.selectionSort(array3);
+
+		ArrCheck arrCheck = new ArrCheck();
+		arrCheck.toCheckAr(array, array2, array3);
+		sc.close();
 
 	}
 
