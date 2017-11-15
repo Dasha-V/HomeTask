@@ -1,15 +1,8 @@
 package scheduletask.ten;
 
-public class Coin {
+public class Executor {
 
-	int[] coins;
-
-	public Coin(int[] coins) {
-		super();
-		this.coins = coins;
-	}
-
-	public void toCalculate() {
+	public void toExecute(int[] coins) {
 
 		int sumOnes = 0;
 		int sumZeros = 0;

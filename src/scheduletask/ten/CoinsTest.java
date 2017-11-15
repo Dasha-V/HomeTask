@@ -10,11 +10,11 @@ public class CoinsTest {
 		int numOfCoints = sc.nextInt();
 		int coins[] = new int[numOfCoints];
 		for (int i = 0; i < coins.length; i++) {
-			System.out.println("Введите \"Орёл\":1 или \"Решка\":2.");
+			System.out.println("Введите \"Орёл\":1 или \"Решка\":0.");
 			coins[i] = sc.nextInt();
 		}
-		Coin coin = new Coin(coins);
-		coin.toCalculate();
+		Executor c = new Executor();
+		c.toExecute(coins);
 		sc.close();
 
 	}
