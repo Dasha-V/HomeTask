@@ -6,7 +6,7 @@ import java.util.TimeZone;
 
 public class TransportSchedule {
 
-	static void toDoTime(long millis) {
+	private static void toDoTime(long millis) {
 		SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
 		Date date = new Date(millis);
 		formatter.setTimeZone(TimeZone.getTimeZone("GMT"));
@@ -15,7 +15,7 @@ public class TransportSchedule {
 
 	}
 
-	static long connvertToMillis(String choice, int time) {
+	private static long connvertToMillis(String choice, int time) {
 
 		if (choice.equals("hour")) {
 			time = time * 3600000;
