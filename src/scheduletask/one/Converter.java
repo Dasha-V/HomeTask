@@ -2,6 +2,6 @@ package scheduletask.one;
 
 public interface Converter {
 
-	public void toConvert(double x);
+	void toConvert(double x);
 
 }

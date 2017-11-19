@@ -1,6 +1,6 @@
 package scheduletask.one;
 
-public class ConverterYard implements Converter {
+public class YardConverter implements Converter {
 
 	@Override
 	public void toConvert(double x) {

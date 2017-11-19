@@ -1,6 +1,6 @@
 package scheduletask.one;
 
-public class ConverterGramm implements Converter {
+public class GrammConverter implements Converter {
 	@Override
 	public void toConvert(double x) {
 		double lb = x * 0.00220462;

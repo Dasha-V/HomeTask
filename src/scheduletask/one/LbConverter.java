@@ -1,6 +1,6 @@
 package scheduletask.one;
 
-public class ConverterLb implements Converter {
+public class LbConverter implements Converter {
 
 	@Override
 	public void toConvert(double x) {

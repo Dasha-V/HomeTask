@@ -1,6 +1,6 @@
 package scheduletask.one;
 
-public class ConverterMile implements Converter {
+public class MileConverter implements Converter {
 
 	@Override
 	public void toConvert(double x) {

@@ -1,6 +1,6 @@
 package scheduletask.one;
 
-public class ConverterFoot implements Converter {
+public class FootConverter implements Converter {
 
 	@Override
 	public void toConvert(double x) {

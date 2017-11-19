@@ -1,6 +1,6 @@
 package scheduletask.one;
 
-public class ConverterCarat implements Converter {
+public class CaratConverter implements Converter {
 
 	@Override
 	public void toConvert(double x) {

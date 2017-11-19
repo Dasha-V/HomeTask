@@ -8,7 +8,7 @@ public class TestClass {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Введите час отправления: ");
 		int startTimeinHours = sc.nextInt();
-		System.out.println("Введите минута отправления: ");
+		System.out.println("Введите минуты отправления: ");
 		int startTimeinMinutes = sc.nextInt();
 		System.out.println("Введите количество станций: ");
 		int numOfStation = sc.nextInt();
@@ -18,8 +18,7 @@ public class TestClass {
 			array[i] = sc.nextInt();
 		}
 
-		TransportSchedule transportSchedule = new TransportSchedule(
-				new ConverterMillis(), new TimeClass());
+		TransportSchedule transportSchedule = new TransportSchedule();
 		transportSchedule.toDoSchedule(startTimeinHours, startTimeinMinutes,
 				numOfStation, array);
 
