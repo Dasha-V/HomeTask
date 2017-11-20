@@ -22,23 +22,17 @@ public class ArrayTask {
 		Arrays.sort(array2);
 		Arrays.sort(array3);
 
-		int length = array.length;
-		for (int i = 0; i < length; i++) {
-			int a = array[i];
-			for (int j = 0; j < length; j++) {
-				int b = array2[j];
-				int sum = a + b;
-				for (int z = 0; z < array3.length; z++) {
-					int c = array3[z];
-					if (c == sum) {
-						System.out.println(a + "+" + b + " = " + c);
+		for (int a1 : array) {
+			for (int a2 : array2) {
+				for (int a3 : array3) {
+					int sum = a1 + a2;
+					if (a3 == sum) {
+						System.out.println(a1 + "+" + a2 + " = " + a3);
 					}
-
 				}
-
 			}
-
 		}
+
 		sc.close();
 
 	}

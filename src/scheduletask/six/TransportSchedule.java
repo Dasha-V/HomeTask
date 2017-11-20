@@ -17,10 +17,10 @@ public class TransportSchedule {
 
 	private static long connvertToMillis(String choice, int time) {
 
-		if (choice.equals("hour")) {
+		if ("hour".equals(choice)) {
 			time = time * 3600000;
 
-		} else if (choice.equals("minutes")) {
+		} else if ("minutes".equals(choice)) {
 			time = time * 60000;
 
 		}
