@@ -6,18 +6,28 @@ public class TaskSeven {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out
-				.println("Давай напишем сколько продуктов есть в холодильнике");
+		System.out.println("Сколько продуктов у студента в холодильнике? ");
 		int productsQuantity = scanner.nextInt();
-		System.out.println("А теперь кол-во продуктов в каждом из блюд.");
-		int mealsQuantity = scanner.nextInt();
+		if (productsQuantity == 0) {
+			System.out.println("Мышь повесилась.");
 
-		int meals = factorial(productsQuantity)
-				/ ((factorial(productsQuantity - mealsQuantity) * factorial(mealsQuantity)));
+		}
 
-		System.out.println(meals + " блюда"
-				+ " + и можно приготовить и съесть всё продукты сразу :)");
+		int mealsQuantity = 2;
+		int allMeals = 0;
+		while (mealsQuantity <= productsQuantity) {
+
+			int mealsVariant = factorial(productsQuantity)
+					/ ((factorial(productsQuantity - mealsQuantity)) * factorial(mealsQuantity));
+			allMeals += mealsVariant;
+			mealsQuantity++;
+
+		}
+
+		System.out.println("Итого можно приготовить " + allMeals
+				+ " варианта(ов) блюд.");
 		scanner.close();
+
 	}
 
 	private static int factorial(int a) {
